@@ -13,5 +13,7 @@ export class EncabezadoComponent  {
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos();
   }
-
+   toggleAddInfo(){
+     console.log("ClickClick")
+   }
 }

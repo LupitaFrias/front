@@ -11,7 +11,8 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import{HttpClientModule} from '@angular/common/http'
+import{HttpClientModule} from '@angular/common/http';
+import { BotonComponent } from './componentes/boton/boton.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import{HttpClientModule} from '@angular/common/http'
     AptitudesComponent,
     ComentariosComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    BotonComponent
   ],
   imports: [
     BrowserModule,
