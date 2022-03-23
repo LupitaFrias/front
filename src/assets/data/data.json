@@ -1,0 +1,130 @@
+[
+	{
+        "comentario": [
+            {
+                "comentario": "guadalupe"
+            }
+        ]
+    },
+    {
+        "experience": [
+            {
+                "position": "ESTUDIANTE",
+                "company": "INTI",
+                "img": "",
+                "mode": "Jornada parcial",
+                "start": "2021",
+                "end": "actualidad",
+                "timeElapsed": "1 años",
+                "place": "Buenos Aires, Argentina"
+            },
+            {
+                "position": "EMPLEADA",
+                "company": "ICBC",
+                "img": "https://bases.mendoza.edu.ar/intranet2/graficos/logo_dge2020cuad_tra.png",
+                "mode": "Jornada COMPLETA",
+                "start": "2008",
+                "end": "actualidad",
+                "timeElapsed": "13 años",
+                "place": "Buenos Aires, Argentina"
+            }
+    
+        ]
+    },
+    {
+        "education": [
+            {
+                "school": "Universidad Buenos Aires",
+                "title": "Licenciatura en Socioloía",
+                "img": "src/lupicon.png",
+                "career": "Ciclo de Grado",
+                "score": 8.51,
+                "start": "2012",
+                "end": "2018"
+            },
+            {
+                "school": "Argentina Programa",
+                "title": "Desarrollador Web Full Stack",
+                "img": "src/logo.png",
+                "career": "Cursos de Programación",
+                "score": null,
+                "start": "2021",
+                "end": "2022"
+            }
+            
+        ]
+    },
+    {
+        "aptitudes": [
+        {
+          "name": "JavaScript",
+          "progress": 70
+          
+        },
+        {
+          "name": "Angular",
+          "progress": 70
+          
+        },
+        {
+          "name": "Java",
+          "progress": 60
+        
+        },
+        {
+          "name": "MySQL",
+          "progress": 80
+          
+        },
+        {
+          "name": "Empatia y Escucha Atenta",
+          "progress": 99
+          
+        }
+      ]
+    },
+    {
+        "Persona": [
+            {
+                "fullName": "Guadalupe Frias",
+                "dateOfBirth": "27/09/1984",
+                "aboutMe": "Estudiante (Argentina Programa)",
+                "mail": "frias.guadalupe.hola@gmail.com",
+                "backImage": "src/fondo1.png",
+                "image": "trb.gif",
+                "position": "INTI",
+                "ubication": "Ciudad de Buenos Aires (Argentina)"
+            }
+        ]
+    },
+    {
+        "achivements": [
+            {
+                "proyect": "Proyecto #1",
+                "mesInicio": "Diciembre",
+                "añoInicio": "2021",
+                "mesFin": "Diciembre",
+                "añoFin": "2021",
+                "url": " River En Madrid",
+                "descripcion": "Descripción"
+            },
+            {
+                "proyect": "Proyecto #2",
+                "mesInicio": "Diciembre",
+                "añoInicio": "2021",
+                "mesFin": "Diciembre",
+                "añoFin": "2021",
+                "url": "River en lugares",
+                "aescripcion": "Descripción"
+            }
+        ]
+    },
+    {
+        "usuario": [
+            {
+                "usuario": "guadalupe",
+                "clave": "aquivamosotravez"
+            }
+        ]
+    }
+]
