@@ -11,8 +11,12 @@ import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component'
 import { ComentariosComponent } from './componentes/comentarios/comentarios.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import{HttpClientModule} from '@angular/common/http';
-import { BotonComponent } from './componentes/boton/boton.component'
+import { PorfolioService } from './servicios/porfolio.service';
+import {HttpClientModule} from '@angular/common/http';
+import { BotonComponent } from './componentes/boton/boton.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,14 +28,16 @@ import { BotonComponent } from './componentes/boton/boton.component'
     ComentariosComponent,
     ProyectosComponent,
     FooterComponent,
-    BotonComponent
+    BotonComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
-  providers: [],
+  providers: [PorfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

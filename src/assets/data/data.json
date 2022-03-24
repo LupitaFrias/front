@@ -1,21 +1,22 @@
-[
-	{
-        "comentario": [
-            {
-                "comentario": "guadalupe"
-            }
-        ]
-    },
-    {
+  {
+     "about":"Hola! Soy Guadalupe Frías, estudiante de Argentina Programa, generando mi primer proyecto.",
+     "aboutData1": "Licenciada en Sociología, actualmente trabajo en una entidad bancaria y en mis tiempos libres hago ilustraciones.",
+     "aboutData2":"El link de Vimeo es de una personita muy especial a quien le agradezco sus apreciaciones estéticas y su apoyo en estas nuevas iniciativas.",
+
+     "comentario": "guadalupe",
+    
+        
+   
+    
         "experience": [
             {
                 "position": "ESTUDIANTE",
                 "company": "INTI",
                 "img": "",
                 "mode": "Jornada parcial",
-                "start": "2021",
+                "start": 2021,
                 "end": "actualidad",
-                "timeElapsed": "1 años",
+                "timeElapsed": 1 ,
                 "place": "Buenos Aires, Argentina"
             },
             {
@@ -23,15 +24,15 @@
                 "company": "ICBC",
                 "img": "https://bases.mendoza.edu.ar/intranet2/graficos/logo_dge2020cuad_tra.png",
                 "mode": "Jornada COMPLETA",
-                "start": "2008",
+                "start": 2008,
                 "end": "actualidad",
-                "timeElapsed": "13 años",
+                "timeElapsed": 13,
                 "place": "Buenos Aires, Argentina"
             }
     
-        ]
-    },
-    {
+        ],
+    
+    
         "education": [
             {
                 "school": "Universidad Buenos Aires",
@@ -39,8 +40,8 @@
                 "img": "src/lupicon.png",
                 "career": "Ciclo de Grado",
                 "score": 8.51,
-                "start": "2012",
-                "end": "2018"
+                "start": 2012,
+                "end": 2018
             },
             {
                 "school": "Argentina Programa",
@@ -48,13 +49,13 @@
                 "img": "src/logo.png",
                 "career": "Cursos de Programación",
                 "score": null,
-                "start": "2021",
-                "end": "2022"
+                "start": 2021,
+                "end": 2022
             }
             
-        ]
-    },
-    {
+        ],
+   
+   
         "aptitudes": [
         {
           "name": "JavaScript",
@@ -81,9 +82,9 @@
           "progress": 99
           
         }
-      ]
-    },
-    {
+      ],
+   
+  
         "Persona": [
             {
                 "fullName": "Guadalupe Frias",
@@ -95,9 +96,9 @@
                 "position": "INTI",
                 "ubication": "Ciudad de Buenos Aires (Argentina)"
             }
-        ]
-    },
-    {
+        ],
+   
+  
         "achivements": [
             {
                 "proyect": "Proyecto #1",
@@ -117,9 +118,9 @@
                 "url": "River en lugares",
                 "aescripcion": "Descripción"
             }
-        ]
-    },
-    {
+        ],
+   
+  
         "usuario": [
             {
                 "usuario": "guadalupe",
@@ -127,4 +128,3 @@
             }
         ]
     }
-]

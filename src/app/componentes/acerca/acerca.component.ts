@@ -6,13 +6,14 @@ import { PorfolioService } from 'src/app/servicios/porfolio.service';
   styleUrls: ['./acerca.component.css']
 })
 export class AcercaComponent implements OnInit {
-
- 
-
-  constructor(private datosPorfolio:PorfolioService) {}
+miPorfolio:any;
+constructor(private datosPorfolio:PorfolioService) {}
 
   ngOnInit(): void {
-    this.datosPorfolio.obtenerDatos();
+   this.datosPorfolio.obtenerDatos().subscribe(data =>{
+      console.log(data);
+      this.miPorfolio= data;  
+    })
   }
 
 }

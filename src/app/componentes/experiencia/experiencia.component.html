@@ -1,0 +1,34 @@
+<section class="section2" id="section2">
+    <div class="card mat-card">
+      <div id="experience">
+        <div class="card-titles">
+          <h2>Experiencia</h2>
+          <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-plus" onclick="showNewExpModal()"></i></a>
+          </div>
+        </div>
+        <div>
+          <ul class="items-list" id="expList">
+            <li *ngFor="let experiencia of experienciaList">
+              <div class="data-container">
+                <a href="#">
+                  <div class="logo-image-container"><img id="exp-img" class="logo-image" [src]="experiencia.img"></div>
+                  <div class="list-info">
+                    <div>
+                      <h2 id="exp-position">{{experiencia.position}}</h2>
+                      <p><span id="exp-company">{{experiencia.company}}</span>, <span id="exp-mode">{{experiencia.mode}}</span></p>
+                      <p><span id="exp-initial">{{experiencia.start}}</span> - <span id="exp-end">{{experiencia.end}}</span>, <span id="exp-time">{{experiencia.timeElapsed}}</span>,
+                     <span id="place"> {{experiencia.place}}</span></p>
+                    </div>
+                  </div>
+                </a>
+              
+              </div>
+              <div class="data-control">
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen" onclick="showEditExpModal('${company.company}')"></i></a></div>
+                <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-trash" onclick="deleteExp('${company.company}')"></i></a></div>
+              </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>

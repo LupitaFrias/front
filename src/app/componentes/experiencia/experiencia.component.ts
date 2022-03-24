@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
-
 @Component({
-  selector: 'app-educacion',
-  templateUrl: './educacion.component.html',
-  styleUrls: ['./educacion.component.css']
+  selector: 'app-experiencia',
+  templateUrl: './experiencia.component.html',
+  styleUrls: ['./experiencia.component.css']
 })
-export class EducacionComponent implements OnInit {
-  educacionList:any;
-
+export class ExperienciaComponent implements OnInit {
+  experienciaList:any;
   constructor(private datosPorfolio:PorfolioService) { }
 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos().subscribe(data =>{
-    this.educacionList=data.education;
-  })
-}
+      this.experienciaList=data.experience;
+    })
+  }
 
 }
