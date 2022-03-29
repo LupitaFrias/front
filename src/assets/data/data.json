@@ -3,9 +3,13 @@
      "aboutData1": "Licenciada en Sociología, actualmente trabajo en una entidad bancaria y en mis tiempos libres hago ilustraciones.",
      "aboutData2":"El link de Vimeo es de una personita muy especial a quien le agradezco sus apreciaciones estéticas y su apoyo en estas nuevas iniciativas.",
 
-     "comentario": "guadalupe",
+     "comentario":[ 
+         {
+             "comentario": "Ingrese su comentario",
+             "usuario":"guadalupe"
+         }
     
-        
+     ],
    
     
         "experience": [

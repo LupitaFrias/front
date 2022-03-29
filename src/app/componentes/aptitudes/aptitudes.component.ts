@@ -31,17 +31,17 @@ aptitudesList: Aptitudes[]=[];
  
  
 
-  onDelete(){
+  onDelete(aptitudes: Aptitudes): void {
     console.log ("borrando datos");
-   this.datosPorfolio.borarrDatos().subscribe(data =>{
-     
-    this.aptitudesList=data.aptitudes;
-    data.aptitudes= data.aptitudes.filter((name:any) => name.name!== data.aptitudes.name);
-   })
-  }
   
-  addDatos(){
-    console.log()
+    
+    this.aptitudesList= this.aptitudesList.filter(h => h!== aptitudes);
+    this.datosPorfolio.borarrDatos().subscribe();
+   
   }
+
+  
+  
+ 
 
 }

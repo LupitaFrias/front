@@ -19,6 +19,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { AddAptitudComponent } from './componentes/add-aptitud/add-aptitud.component'
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { AddComentarioComponent } from './componentes/add-comentario/add-comentario.component';
 
 const appRoutes:Routes = [
   {path:'add-aptitud', component: AddAptitudComponent},
@@ -30,7 +31,7 @@ const appRoutes:Routes = [
   {path:'footer', component:FooterComponent},
   {path: 'proyectos', component:ProyectosComponent},
   {path: 'info', component:InfoComponent},
-  
+  {path: 'addComentario', component:AddComentarioComponent},
   {path:'encabezado', component: EncabezadoComponent},
 ]
 
@@ -47,7 +48,8 @@ const appRoutes:Routes = [
     FooterComponent,
     BotonComponent,
     ExperienciaComponent,
-    AddAptitudComponent
+    AddAptitudComponent,
+    AddComentarioComponent
   ],
   imports: [
     BrowserModule,

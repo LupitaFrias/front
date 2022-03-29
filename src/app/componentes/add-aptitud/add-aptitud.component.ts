@@ -3,6 +3,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Aptitudes } from 'src/app/Datos';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
 import { FormBuilder, FormGroup } from '@angular/forms';
+
 @Component({
   selector: 'app-add-aptitud',
   templateUrl: './add-aptitud.component.html',

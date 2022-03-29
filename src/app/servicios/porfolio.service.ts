@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Data, Comentario, Experience, Educacion, Aptitudes,Persona, Achivements, usuario} from 'src/app/Datos';
+import { __values } from 'tslib';
 
 @Injectable({
   providedIn: 'root'
@@ -23,7 +24,7 @@ export class PorfolioService {
     return this.http.delete('./assets/data/data.json');
    }
    addDatos():Observable<any>{
-     return this.http.post('./assets/data/data.json', 1);
+     return this.http.post('./assets/data/data.json', __values);
    }
    modificarDatos():Observable<any>{
      return this.http.get('./assets/data/data.json');

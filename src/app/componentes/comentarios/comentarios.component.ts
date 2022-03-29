@@ -1,16 +1,26 @@
 import { Component, OnInit } from '@angular/core';
-import { faPen} from '@fortawesome/free-solid-svg-icons';
+import { faPaperclip} from '@fortawesome/free-solid-svg-icons';
+import { PorfolioService } from 'src/app/servicios/porfolio.service';
+
 @Component({
   selector: 'app-comentarios',
   templateUrl: './comentarios.component.html',
   styleUrls: ['./comentarios.component.css']
 })
 export class ComentariosComponent implements OnInit {
-   faPen = faPen;
-  constructor() { }
+  comentarioList: any;
+
+   faPaperclip = faPaperclip;
+   
+  constructor(private datosPorfolio:PorfolioService) {
+    
+   }
 
   ngOnInit(): void {
-    
-  }
+    this.datosPorfolio.obtenerDatos().subscribe(data =>{
+      this.comentarioList=data.comentario;
+  
+})
+}
 
 }
