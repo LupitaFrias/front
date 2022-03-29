@@ -1,0 +1,23 @@
+
+
+    <form [formGroup]= "form" (ngSubmit)="onSubmit()" >
+      <div class="form-control">
+      <label for="name">Nuevo Skill</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter Skill"
+      [(ngModel)]="name"/> 
+     
+  
+  
+    
+      <label for="progress">Progreso</label>
+      <input type="text" class="form-control" id="progress" placeholder="Enter Progress"
+      [(ngModel)]="progress"/>
+
+  </div>
+  <a routerLink="/aptitudes"  class="btn btn-secondary">Cerrar</a>
+      <input type="submit" value="Save changes " class="btn btn-danger"/>
+     
+     
+  </form>
+   
+

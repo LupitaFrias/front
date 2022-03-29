@@ -36,13 +36,15 @@
       </div>
       <div id="info-actions">
         <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-        <a href="#section1" button type="button" class="btn btn-secondary" >Acerca de mi</a>
-        <a href="#section2" button type="button" class="btn btn-success ">Experiencia</a>
-        <a href="#section3"button type="button" class="btn btn-secondary"  >Educación</a>
-        <a href="#section4"button type="button" class="btn btn-success"  >Skills</a>
-        <a href="#section5"button type="button" class="btn btn-secondary" >Proyectos</a>
-        <a href="#section6"button type="button"  class="btn btn-success"  >Comentarios</a>
+        <a routerLink="/acerca"  button type="button" class="btn btn-secondary" >Acerca de mi</a>
+        <a routerLink="/experiencia"  button type="button" class="btn btn-success ">Experiencia</a>
+        <a routerLink="/educacion" button type="button" class="btn btn-secondary"  >Educación</a>
+        <a routerLink="/aptitudes" button type="button" class="btn btn-success"  >Skills</a>
+        <a routerLink="/proyectos" button type="button" class="btn btn-secondary" >Proyectos</a>
+        <a routerLink="/comentarios" button type="button"  class="btn btn-success"  >Comentarios</a>
       </div>
     </div>
+    <router-outlet></router-outlet>
+       
     </div>
   </div>

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { PorfolioService } from 'src/app/servicios/porfolio.service';
+
 declare var $: any
 @Component({
   selector: 'app-encabezado',
@@ -7,13 +9,19 @@ declare var $: any
   styleUrls: ['./encabezado.component.css']
 })
 export class EncabezadoComponent  {
-  title:string = '#ARGENTINAPROGRAMA'
-  constructor(private datosPorfolio:PorfolioService) {}
+  title:string = '#ARGENTINAPROGRAMA';
+  showAddDatos: boolean =false;
+  subscription?: Subscription;
 
+  constructor(private datosPorfolio:PorfolioService) {}
+   
+ 
   ngOnInit(): void {
     this.datosPorfolio.obtenerDatos();
   }
-   toggleAddInfo(){
-     console.log("ClickClick")
+   toggleAddDatos(){
+     
+     this.datosPorfolio.toggleAddDatos();
+
    }
 }
